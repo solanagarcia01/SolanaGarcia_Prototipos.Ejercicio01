@@ -17,5 +17,6 @@ namespace SolanaGarcia_Prototipos.Ejercicio01.DatosPersona
         {
             InitializeComponent();
         }
+
     }
 }
