@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SolanaGarcia_Prototipos.Ejercicio01.DatosPersona
 {
-    internal class DatosPersonaModel
+    internal class Persona
     {
-        public string Ingresar (Persona persona)
-        {
-
-
+        public Persona() 
+        { 
         }
+
+        public string Dni { get; internal set; }
     }
 }

@@ -18,5 +18,24 @@ namespace SolanaGarcia_Prototipos.Ejercicio01.DatosPersona
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var persona = new Persona();
+
+            persona.Dni = textBox1.Text;
+
+
+            var error = modelo.Ingresar(persona);
+
+            if (error != null) {
+
+                MessageBox.Show("Se han ingresado los datos correctamente");
+
+            }
+            else
+            {
+                MessageBox.Show(error);
+            }
+        }
     }
 }

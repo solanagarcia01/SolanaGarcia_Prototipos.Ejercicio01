@@ -45,7 +45,6 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(150, 31);
             textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -76,16 +75,15 @@
             label1.Size = new Size(106, 25);
             label1.TabIndex = 4;
             label1.Text = "Documento";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(223, 66);
             label2.Name = "label2";
-            label2.Size = new Size(78, 25);
+            label2.Size = new Size(69, 25);
             label2.TabIndex = 5;
-            label2.Text = "Nombre\r\n";
+            label2.Text = "Nombr";
             // 
             // label3
             // 
@@ -104,7 +102,6 @@
             label4.Size = new Size(177, 25);
             label4.TabIndex = 7;
             label4.Text = "Fecha de Nacimiento";
-            label4.Click += label4_Click;
             // 
             // button1
             // 
@@ -114,6 +111,7 @@
             button1.TabIndex = 8;
             button1.Text = "Aceptar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // DatosPersonaForm
             // 
